@@ -1,8 +1,8 @@
 {
         "name": "1cfe8.Trojan",
         "versions": {
-                "attack": "12",
-                "navigator": "4.5.5",
+                "attack": "13",
+                "navigator": "4.8.1",
                 "layer": "4.4"
         },
         "domain": "enterprise-attack",
