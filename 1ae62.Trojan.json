@@ -2,7 +2,7 @@
         "name": "1ae62.Trojan",
         "versions": {
                 "attack": "13",
-                "navigator": "4.8.1",
+                "navigator": "4.8.2",
                 "layer": "4.4"
         },
         "domain": "enterprise-attack",
@@ -31,7 +31,63 @@
         "hideDisabled": false,
         "techniques": [
                 {
-                        "techniqueID": "T1106",
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nA Trojan is a type of malware that in many cases masks itself as genuine software. Adversaries use Trojans to get access to users' systems. Generally",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "social engineering is the main raison users load and execute Trojans on their systems. Once activated",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans allow cybercriminals to spy",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "steal information",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "and gain access to the computer using backdoors. These actions can include:\n- Delete data\n- Lock data\n- Modify data\n- Copy data\n- Disrupt the operation of computers or computer networks\nUnlike viruses and worms",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans are unable to replicate themselves\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 792a5f4fdd464eebfdaffff8a519d933\nSHA1: f3d98079a14afe3f0c46cff92c95937e7db6c13b\nSHA256: 1ae62dbec330695d2eddc7cb9a65d47bad5f45af95e6c8a803f0780e0749a3ad\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine \nSection headers are modified/stripped\nThe binary is stripped and also statically linked\n\n\nSUSPICIOUS:\n\nFound potential IP address in binary/memory\nBinary is statically linked\n\nINFO:\n\nBinary is stripped\nCalls native functions (syscalls)\nContains native function calls (syscalls strings)\nFound potential URL in binary/memory\n\n\n\nhttps://www.hybrid-analysis.com/sample/1ae62dbec330695d2eddc7cb9a65d47bad5f45af95e6c8a803f0780e0749a3ad?environmentId=300\n\n\n2018-07-19\n\n\nZ:\\Known\\Trojan\\1ae62.Trojan.bin.rthreat\nZ:\\Ofuscados\\Trojan\\1ae62.Trojan.Obf.bin.rthreat\n\n\n\n\nT1106",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -47,7 +103,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1071",
+                        "techniqueID": "T1071\n\nExecution\nDefense Evasion\nCommand and Control",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

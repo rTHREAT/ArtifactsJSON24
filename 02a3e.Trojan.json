@@ -1,5 +1,5 @@
 {
-        "name": "1f52d.Trojan",
+        "name": "02a3e.Trojan",
         "versions": {
                 "attack": "13",
                 "navigator": "4.8.2",
@@ -87,7 +87,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "Trojans are unable to replicate themselves\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 115620dfb71e59b9dad47a7ab99c88cd\nSHA1: 1f52db8e3fc3040c017928f5ffd99d9fa4757bf8\nSHA256: efbd281cebd62c70e6f5f1910051584da244e56e2a3228673e216f83bdddf0aa\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine \nBinary is packed\n\nSUSPICIOUS:\n\nFound a potential E-Mail address in binary/memory\nFound potential IP address in binary/memory\nContains indicators of bot communication commands\n\nINFO:\n\nFound XOR operators (encryption/decryption)\nBinary is stripped\nContains native function calls (syscalls strings)\nQueries DNS server\nFound potential URL in binary/memory\nMaking HTTPS connections using secure TLS/SSL version\n\n\n\n\nhttps://www.hybrid-analysis.com/sample/efbd281cebd62c70e6f5f1910051584da244e56e2a3228673e216f83bdddf0aa/6495a5ec86cb7eff4102aff4\n\n\n\n\t\n2020-06-09\n\n\nZ:\\Known\\Trojan\\1f52d.Trojan.bin.rthreat\nZ:\\Ofuscados\\Trojan\\1f52d.Trojan.Obf.bin.rthreat\n\n\n\n\nT1027",
+                        "techniqueID": "Trojans are unable to replicate themselves\n\nObfuscation: Mutation and Virtualization.\n\nMD5: d37965fb275de186ebf568514c4660d7\nSHA1: c2622a36d163e6d23de7c9bed36aa1bd5d347779\nSHA256: 02a3ecc243e61546b27d76d3ea3d5d535adad2ef40205305cda4708b023f0b98\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine \n\nSUSPICIOUS:\n\n\nINFO:\n\n\nZ:\\Known\\Trojan\\02a3e.Trojan.exe.rthreat\nZ:\\Ofuscados\\Trojan\\02a3e.Trojan.Obf.exe.rthreat\n\n\n\n\nT1106",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -95,7 +95,55 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1114\n\nDefense Evasion\nCollection",
+                        "techniqueID": "T1059.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1543",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1027",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1027.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1082",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1057",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1573\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nDiscovery\nCommand and Control",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

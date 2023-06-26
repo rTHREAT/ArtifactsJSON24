@@ -1,5 +1,5 @@
 {
-        "name": "c1372.Worm.Obf",
+        "name": "64fb4.Worm",
         "versions": {
                 "attack": "13",
                 "navigator": "4.8.2",
@@ -79,7 +79,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "worms do not infect files.\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 886f47874b47fdb176a996318a4b119d\nSHA1: 937896b0951f2a8972179be1d7daabd37c6f73db\nSHA256: c137250c377256886161ea12ce2d7ca589fa182c3f72fdf5e6e0078084f8ddd6\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine\nChanges file extension appearance of the explorer\nHooks process/system information retrieval APIs\nWrites data to a remote process\nFound a reference to an external IP address lookup service\nHooks internet related APIs\nSpawns a lot of processes\n\nSUSPICIOUS:\n\nPossibly checks for the presence of a forensics/monitoring tool\nTries to detect debugger using ProcessDebugPort\nCalls an API typically used to query local/system time as file time\nWrites archive files\nDrops executable files\nWrites a PE file header to disc\nContains ability to identify remote systems\nFound system commands related strings\nMarks file for deletion\nOpens file with deletion access rights\nCRC value set in PE header does not match actual value\nInstalls hooks/patches the running process\n\nINFO:\n\nContains ability to impersonate access tokens (API string)\nContains ability to modify registry key/value (API string)\nContains ability to pass information to a window procedure (API string)\nContains long base64 encoded strings\nFound PE header in memory\nPE file contains zero-size sections\nContains XOR operation loops [Stream disassembly]\nContains ability to perform decryption (API string)\nShows ability to deobfuscate/decode files or information\nShows ability to obfuscate file or information\nShows ability to use encryption for command and control traffic\nCalls an API typically used to get active windows title\nCalls an API typically used to get product type\nCalls an API typically used to get system version information\nCalls an API typically used to retrieve OS information\nCalls an API typically used to retrieve default language settings\nCalls an API typically used to retrieve local language\nContains ability to find open windows (API string)\nContains ability to query system locale (API string)\nContains ability to read software policies\nContains ability to retrieve open application windows (API string)\nAn application crash occurred\nCalls an API during runtime\nCalls an API typically used to create a process\nCalls an API typically used to load libraries\nCalls an API typically used to retrieve function addresses\nContains ability to create a new process (API string)\nContains ability to create/load registry keys (API string)\nContains ability to disable/close registry key (API string)\nContains ability to execute Windows APIs\nContains ability to retrieve/open a process (API string)\nContains registry location strings\nCreates mutants\nFails to load modules at runtime\nFound registry location strings in memory\nLoaded EXE module from outside of Windows folder\nLoaded modules\nLoads modules at runtime\nLoads the Bcrypt module DLL\nLoads the RPC (Remote Procedure Call) module DLL\nLoads the visual basic runtime environment\nLogged script engine calls\nOverview of unique CLSIDs touched in registry\nPE file contains executable sections\nPE file contains writable sections\nPE file entrypoint instructions\nPossibly uses system binaries (Windows LOLbins)\nProcess launched with changed environment\nReads information about supported languages\nReferences Windows filepaths for DLLs (possible dropped files)\nScanning for window names\nSpawns new processes\nSpawns new processes that are not known child processes\nUses 32 bit executable PE\n\n\n\nhttps://www.hybrid-analysis.com/sample/c137250c377256886161ea12ce2d7ca589fa182c3f72fdf5e6e0078084f8ddd6?environmentId=160\n\n\n2023-06-09\n2023-06-09\n\n\nZ:\\Known\\Worms\\c1372.Worm.exe.rthreat\nZ:\\Ofuscados\\Worms\\c1372.Worm.Obf.exe.rthreat\n\n\n\n\nT1106",
+                        "techniqueID": "worms do not infect files.\n\nObfuscation: Mutation and Virtualization.\n\nMD5: b3c8d22bd2857d254c05c29e9b567599\nSHA1: 2ecb21beb9fdc38a1363dd86ce372d6e1172a02c\nSHA256: 64fb45647e98922e7ed4d36d78de19a978f553b443adf82e3e8a5b49618fc909\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine\n\nSUSPICIOUS:\n\n\nINFO:\n\n\nZ:\\Known\\Worms\\64fb4.Worm.exe.rthreat\nZ:\\Ofuscados\\Worms\\64fb4.Worm.Obf.exe.rthreat\n\n\n\n\nT1091",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -95,7 +95,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1059",
+                        "techniqueID": "T1106",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -103,7 +103,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1574",
+                        "techniqueID": "T1059.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -111,7 +111,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1574.002",
+                        "techniqueID": "T1569.002",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -119,7 +119,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1546.015",
+                        "techniqueID": "T1547",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -127,7 +127,31 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1546.001",
+                        "techniqueID": "T1547.001",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1543",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1543.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1098",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -143,7 +167,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1134",
+                        "techniqueID": "T1055.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -151,7 +175,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1055.012",
+                        "techniqueID": "T1548.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1055.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -160,22 +192,6 @@
                 },
                 {
                         "techniqueID": "T1055.011",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1134.001",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1548",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -207,7 +223,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1070",
+                        "techniqueID": "T1497.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1222",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -231,7 +255,39 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1564.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1036",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1027.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1027.007",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1497",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -247,15 +303,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1564.003",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1140",
+                        "techniqueID": "T1497.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -272,6 +320,22 @@
                 },
                 {
                         "techniqueID": "T1056.004",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1555",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1056.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -311,23 +375,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1614.001",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1010",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
                         "techniqueID": "T1012",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1614.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -343,7 +399,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1033",
+                        "techniqueID": "T1010",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -359,15 +415,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1016",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1018",
+                        "techniqueID": "T1124",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -383,7 +431,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1005",
+                        "techniqueID": "T1115",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -391,7 +439,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1560",
+                        "techniqueID": "T1114",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1005",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -431,7 +487,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1573.001",
+                        "techniqueID": "T1071.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -439,7 +495,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1529",
+                        "techniqueID": "T1132.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -447,7 +503,39 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1486\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nCollection\nCommand and Control\nImpact",
+                        "techniqueID": "T1095",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1571",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1029",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1489",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1529\n\nInitial Access\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nLateral Movement\nCollection\nCommand and Control\nExfiltration\nImpact",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

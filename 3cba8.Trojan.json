@@ -1,5 +1,5 @@
 {
-        "name": "05c66.Trojan",
+        "name": "3cba8.Trojan",
         "versions": {
                 "attack": "13",
                 "navigator": "4.8.2",
@@ -31,23 +31,71 @@
         "hideDisabled": false,
         "techniques": [
                 {
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nA Trojan is a type of malware that in many cases masks itself as genuine software. Adversaries use Trojans to get access to users' systems. Generally",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "social engineering is the main raison users load and execute Trojans on their systems. Once activated",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans allow cybercriminals to spy",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "steal information",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "and gain access to the computer using backdoors. These actions can include:\n- Delete data\n- Lock data\n- Modify data\n- Copy data\n- Disrupt the operation of computers or computer networks\nUnlike viruses and worms",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans are unable to replicate themselves\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 47454adf24e7a39240af60eed09e3ce7\nSHA1: 7b61a099d085c18918305d900e5b7c6d0c6aa4dd\nSHA256: 3cba8f1923170d1d9e42fd28067d899b577f1252ef535ddbe5221878451b7e9b\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine \n\nSUSPICIOUS:\n\n\nINFO:\n\n\nZ:\\Known\\Trojan\\3cba8.Trojan.exe.rthreat\nZ:\\Ofuscados\\Trojan\\3cba8.Trojan.Obf.exe.rthreat\n\n\n\n\nT1129",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1106",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1129",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1574",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -71,7 +119,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1055.012",
+                        "techniqueID": "T1055.011",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -79,15 +127,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1134",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1055.001",
+                        "techniqueID": "T1622",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -103,7 +143,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1027.002",
+                        "techniqueID": "T1027.005",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -111,7 +151,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1027.007",
+                        "techniqueID": "T1564.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -119,7 +159,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1140",
+                        "techniqueID": "T1056.001",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1056.004",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -135,7 +183,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1057",
+                        "techniqueID": "T1082",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -143,7 +191,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1082",
+                        "techniqueID": "T1057",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -159,7 +207,23 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1614",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1614.001",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1010",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -175,7 +239,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1105",
+                        "techniqueID": "T1113",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -183,31 +247,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1573",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1132",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1071",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1489",
+                        "techniqueID": "T1071\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nCollection\nCommand and Control",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

@@ -2,7 +2,7 @@
         "name": "d275c.Trojan",
         "versions": {
                 "attack": "13",
-                "navigator": "4.8.1",
+                "navigator": "4.8.2",
                 "layer": "4.4"
         },
         "domain": "enterprise-attack",
@@ -31,7 +31,63 @@
         "hideDisabled": false,
         "techniques": [
                 {
-                        "techniqueID": "T1106",
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nA Trojan is a type of malware that in many cases masks itself as genuine software. Adversaries use Trojans to get access to users' systems. Generally",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "social engineering is the main raison users load and execute Trojans on their systems. Once activated",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans allow cybercriminals to spy",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "steal information",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "and gain access to the computer using backdoors. These actions can include:\n- Delete data\n- Lock data\n- Modify data\n- Copy data\n- Disrupt the operation of computers or computer networks\nUnlike viruses and worms",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "Trojans are unable to replicate themselves\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 75a280cdf030ffa779a37d203651cba2\nSHA1: d4a49f4c0d87db93b926d3cb9f2153aca91bcadc\nSHA256: d275c693a5ed80af1c53904ce0eacd6cd219ce0452194bd914d52c359c065876\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine \nWrites data to a remote process\n\nSUSPICIOUS:\n\nPE file has unusual entropy sections\nTries to detect debugger using ProcessDebugPort\nPE file has unusual entropy resources\nRenames files with double extension (often done by ransomware)\nDrops executable files\nWrites a PE file header to disc\nSpawned processes likely due to injection\nMarks file for deletion\nOpens file with deletion access rights\nWrites registry keys\nImports suspicious APIs\nInstalls hooks/patches the running process\nTimestamp in PE header is very old or in the future\n\nINFO:\n\nContains ability to create a remote thread (API string)\nContains ability to delay execution by waiting for signal/timeout (API string)\nContains ability to impersonate access tokens (API string)\nContains ability to inject code into another process (API string)\nContains ability to load/free library (API string)\nContains ability to modify registry key/value (API string)\nRenames files\nContains ability to check debugger is running (API string)\nContains ability to register a top-level exception handler (API string)\nPE file contains zero-size sections\nContains ability to perform AES/RC4 encryption (API string)\nShows ability to obfuscate file or information\nCalls an API typically used to get product type\nCalls an API typically used to get system version information\nCalls an API typically used to retrieve OS information\nCalls an API typically used to retrieve local language\nContains ability to query system locale (API string)\nContains ability to read software policies\nContains ability to retrieve file time (API string)\nContains ability to retrieve path in which Windows is installed (API string)\nContains ability to retrieve the OS information (API string)\nContains ability to retrieve the contents of the STARTUPINFO structure (API string)\nAn application crash occurred\nCalls an API during runtime\nCalls an API typically used to copy file from one location to another\nCalls an API typically used to load libraries\nCalls an API typically used to retrieve function addresses\nContains ability to close a handle to a service (API string)\nContains ability to create a new process (API string)\nContains ability to create/load registry keys (API string)\nContains ability to create/open files (API string)\nContains ability to dynamically determine API calls\nContains ability to execute Windows APIs\nContains ability to find and load resources of specific modules (API string)\nContains ability to move file or directory (API string)\nContains ability to retrieve the command-line string for the current process (API string)\nContains ability to retrieve/modify process thread (API string)\nContains ability to retrieve/open a process (API string)\nContains ability to set/get the last-error code for a calling thread (API string)\nLoaded EXE module from outside of Windows folder\nLoaded modules\nLoads modules at runtime\nLoads the Bcrypt module DLL\nLoads the RPC (Remote Procedure Call) module DLL\nPE file contains executable sections\nPE file contains writable sections\nPE file entrypoint instructions\nProcess launched with changed environment\nReads information about supported languages\nSpawns new processes that are not known child processes\nUses 32 bit executable PE\n\n\n\n\n\nhttps://www.hybrid-analysis.com/sample/d275c693a5ed80af1c53904ce0eacd6cd219ce0452194bd914d52c359c065876/6482a1f955117c734a040703\n\n\n2023-06-06\n2023-06-06\n\n\nZ:\\Known\\Trojan\\d275c.Trojan.exe.rthreat\nZ:\\Ofuscados\\Trojan\\d275c.Trojan.Obf.exe.rthreat\n\n\n\n\nT1106",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -359,7 +415,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1489",
+                        "techniqueID": "T1489\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nLateral Movement\nCollection\nCommand and Control\nImpact",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

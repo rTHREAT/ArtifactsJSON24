@@ -1,5 +1,5 @@
 {
-        "name": "05c66.Trojan",
+        "name": "d9948.Worm",
         "versions": {
                 "attack": "13",
                 "navigator": "4.8.2",
@@ -31,31 +31,63 @@
         "hideDisabled": false,
         "techniques": [
                 {
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nThey are a type of malware that is characterized by being able to replicate itself on computers or on the network without users being aware of it.\nConsidering that each of these worms can replicate themselves",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "an infection can affect large numbers of hosts.\nWorms often use social engineering techniques to be more effective. To do this",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "malware writers select an attractive theme or name to disguise the malicious file.\nThe objective of this malware is usually to collapse computers and computer networks",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "thus preventing users from working. Unlike viruses",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "worms do not infect files.\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 2e4f31aa6fcfef680022943d9ae761da\nSHA1: 20f6d1e1ab002d96868a9c97d7471177311ca890\nSHA256: d99485e5bf8c7fb322ed6c53b601704e85d393429659b56838dc3ee95988bc30\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine\n\nSUSPICIOUS:\n\n\nINFO:\n\n\nZ:\\Known\\Worms\\d9948.Worm.exe.rthreat\nZ:\\Ofuscados\\Worms\\d9948.Worm.Obf.exe.rthreat\n\n\n\n\nT1129",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1106",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1129",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1574",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1574.002",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -71,7 +103,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1055.012",
+                        "techniqueID": "T1055.011",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -79,15 +111,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1134",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1055.001",
+                        "techniqueID": "T1622",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -103,6 +127,14 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1564.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1027.002",
                         "color": "#e60d0d",
                         "comment": "",
@@ -111,7 +143,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1027.007",
+                        "techniqueID": "T1027.005",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -119,7 +151,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1140",
+                        "techniqueID": "T1056.004",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -135,14 +167,6 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1057",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
                         "techniqueID": "T1082",
                         "color": "#e60d0d",
                         "comment": "",
@@ -151,7 +175,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1012",
+                        "techniqueID": "T1057",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1614",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -167,6 +199,14 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1012",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1007",
                         "color": "#e60d0d",
                         "comment": "",
@@ -175,7 +215,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1105",
+                        "techniqueID": "T1113",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -191,23 +231,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1132",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1071",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1489",
+                        "techniqueID": "T1071\n\nExecution\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nCollection\nCommand and Control",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,

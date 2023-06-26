@@ -2,7 +2,7 @@
         "name": "c1372.Worm",
         "versions": {
                 "attack": "13",
-                "navigator": "4.8.1",
+                "navigator": "4.8.2",
                 "layer": "4.4"
         },
         "domain": "enterprise-attack",
@@ -31,7 +31,55 @@
         "hideDisabled": false,
         "techniques": [
                 {
-                        "techniqueID": "T1106",
+                        "techniqueID": "This malware has been obfuscated by rTHREAT in order to be able to bypass detection systems such as anti-malware",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "EPP",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "IPS etc.\nThey are a type of malware that is characterized by being able to replicate itself on computers or on the network without users being aware of it.\nConsidering that each of these worms can replicate themselves",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "an infection can affect large numbers of hosts.\nWorms often use social engineering techniques to be more effective. To do this",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "malware writers select an attractive theme or name to disguise the malicious file.\nThe objective of this malware is usually to collapse computers and computer networks",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "thus preventing users from working. Unlike viruses",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "worms do not infect files.\n\nObfuscation: Mutation and Virtualization.\n\nMD5: 886f47874b47fdb176a996318a4b119d\nSHA1: 937896b0951f2a8972179be1d7daabd37c6f73db\nSHA256: c137250c377256886161ea12ce2d7ca589fa182c3f72fdf5e6e0078084f8ddd6\n\n\n\n\nMALICIOUS:\nSample was identified as malicious by a trusted Antivirus engine\nChanges file extension appearance of the explorer\nHooks process/system information retrieval APIs\nWrites data to a remote process\nFound a reference to an external IP address lookup service\nHooks internet related APIs\nSpawns a lot of processes\n\nSUSPICIOUS:\n\nPossibly checks for the presence of a forensics/monitoring tool\nTries to detect debugger using ProcessDebugPort\nCalls an API typically used to query local/system time as file time\nWrites archive files\nDrops executable files\nWrites a PE file header to disc\nContains ability to identify remote systems\nFound system commands related strings\nMarks file for deletion\nOpens file with deletion access rights\nCRC value set in PE header does not match actual value\nInstalls hooks/patches the running process\n\nINFO:\n\nContains ability to impersonate access tokens (API string)\nContains ability to modify registry key/value (API string)\nContains ability to pass information to a window procedure (API string)\nContains long base64 encoded strings\nFound PE header in memory\nPE file contains zero-size sections\nContains XOR operation loops [Stream disassembly]\nContains ability to perform decryption (API string)\nShows ability to deobfuscate/decode files or information\nShows ability to obfuscate file or information\nShows ability to use encryption for command and control traffic\nCalls an API typically used to get active windows title\nCalls an API typically used to get product type\nCalls an API typically used to get system version information\nCalls an API typically used to retrieve OS information\nCalls an API typically used to retrieve default language settings\nCalls an API typically used to retrieve local language\nContains ability to find open windows (API string)\nContains ability to query system locale (API string)\nContains ability to read software policies\nContains ability to retrieve open application windows (API string)\nAn application crash occurred\nCalls an API during runtime\nCalls an API typically used to create a process\nCalls an API typically used to load libraries\nCalls an API typically used to retrieve function addresses\nContains ability to create a new process (API string)\nContains ability to create/load registry keys (API string)\nContains ability to disable/close registry key (API string)\nContains ability to execute Windows APIs\nContains ability to retrieve/open a process (API string)\nContains registry location strings\nCreates mutants\nFails to load modules at runtime\nFound registry location strings in memory\nLoaded EXE module from outside of Windows folder\nLoaded modules\nLoads modules at runtime\nLoads the Bcrypt module DLL\nLoads the RPC (Remote Procedure Call) module DLL\nLoads the visual basic runtime environment\nLogged script engine calls\nOverview of unique CLSIDs touched in registry\nPE file contains executable sections\nPE file contains writable sections\nPE file entrypoint instructions\nPossibly uses system binaries (Windows LOLbins)\nProcess launched with changed environment\nReads information about supported languages\nReferences Windows filepaths for DLLs (possible dropped files)\nScanning for window names\nSpawns new processes\nSpawns new processes that are not known child processes\nUses 32 bit executable PE\n\n\n\nhttps://www.hybrid-analysis.com/sample/c137250c377256886161ea12ce2d7ca589fa182c3f72fdf5e6e0078084f8ddd6?environmentId=160\n\n\n2023-06-09\n2023-06-09\n\n\nZ:\\Known\\Worms\\c1372.Worm.exe.rthreat\nZ:\\Ofuscados\\Worms\\c1372.Worm.Obf.exe.rthreat\n\n\n\n\nT1106",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -399,7 +447,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1486",
+                        "techniqueID": "T1486\n\nExecution\nPersistence\nPrivilege Escalation\nDefense Evasion\nCredential Access\nDiscovery\nCollection\nCommand and Control\nImpact",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
