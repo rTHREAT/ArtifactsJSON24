@@ -1,5 +1,5 @@
 {
-        "name": "7b71a.Trojan",
+        "name": "7b5d8.Trojan",
         "versions": {
                 "attack": "13",
                 "navigator": "4.8.2",
@@ -55,7 +55,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1546.015",
+                        "techniqueID": "T1569.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1047",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -64,22 +72,6 @@
                 },
                 {
                         "techniqueID": "T1543.003",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1543",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1055.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -103,7 +95,31 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1055.003",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1055.001",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1055.005",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1055.012",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -127,6 +143,30 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1070.004",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1036",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1036.007",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1027",
                         "color": "#e60d0d",
                         "comment": "",
@@ -143,7 +183,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1070.004",
+                        "techniqueID": "T1140",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -151,15 +191,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1497.003",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1070.006",
+                        "techniqueID": "T1070",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -183,15 +215,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1027.005",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1497",
+                        "techniqueID": "T1497.003",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -223,14 +247,6 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1012",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
                         "techniqueID": "T1057",
                         "color": "#e60d0d",
                         "comment": "",
@@ -247,23 +263,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1010",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1614.001",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1518",
+                        "techniqueID": "T1012",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -279,6 +279,14 @@
                         "showSubtechniques": true
                 },
                 {
+                        "techniqueID": "T1614.001",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
                         "techniqueID": "T1033",
                         "color": "#e60d0d",
                         "comment": "",
@@ -287,7 +295,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1124",
+                        "techniqueID": "T1518.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -295,7 +303,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1614",
+                        "techniqueID": "T1570",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -311,7 +319,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1113",
+                        "techniqueID": "T1074.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -319,7 +327,31 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1560.002",
+                        "techniqueID": "T1114",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1119",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1573.002",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1071.001",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -343,15 +375,7 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1071.001",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1132",
+                        "techniqueID": "T1573",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
@@ -367,23 +391,15 @@
                         "showSubtechniques": true
                 },
                 {
-                        "techniqueID": "T1573",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
-                        "techniqueID": "T1029",
-                        "color": "#e60d0d",
-                        "comment": "",
-                        "enabled": true,
-                        "metadata": [],
-                        "showSubtechniques": true
-                },
-                {
                         "techniqueID": "T1489",
+                        "color": "#e60d0d",
+                        "comment": "",
+                        "enabled": true,
+                        "metadata": [],
+                        "showSubtechniques": true
+                },
+                {
+                        "techniqueID": "T1486",
                         "color": "#e60d0d",
                         "comment": "",
                         "enabled": true,
