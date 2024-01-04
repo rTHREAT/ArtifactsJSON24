@@ -1,9 +1,9 @@
 {
         "name": "08aa6.Trojan",
         "versions": {
-                "attack": "13",
-                "navigator": "4.8.1",
-                "layer": "4.4"
+                "attack": "14",
+                "navigator": "4.9.1",
+                "layer": "4.5"
         },
         "domain": "enterprise-attack",
         "description": "",

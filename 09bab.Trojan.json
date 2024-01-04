@@ -1,9 +1,9 @@
 {
         "name": "09bab.Trojan",
         "versions": {
-                "attack": "13",
-                "navigator": "4.8.2",
-                "layer": "4.4"
+                "attack": "14",
+                "navigator": "4.9.1",
+                "layer": "4.5"
         },
         "domain": "enterprise-attack",
         "description": "",
