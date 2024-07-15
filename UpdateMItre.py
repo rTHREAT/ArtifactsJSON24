@@ -6,8 +6,8 @@ for filename in glob.glob('*.json'):
     data = json.load(jsonFile) # Read the JSON into the buffer
     jsonFile.close() # Close the JSON file
 
-    data["versions"]["attack"]  = "14"
-    data["versions"]["navigator"]  = "4.9.1"
+    data["versions"]["attack"]  = "15.1"
+    data["versions"]["navigator"]  = "5.0.1"
     data["versions"]["layer"]  = "4.5"
 
     jsonFile = open(filename, "w")
